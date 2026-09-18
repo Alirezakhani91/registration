@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ثبت‌نام</title>
+  <meta name="description" content="صفحه ثبت‌نام و ارتباط از طریق تلگرام" />
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+      font-family:Tahoma,Arial,sans-serif; background:#f5f7fb; color:#172033; padding:24px;
+    }
+    .card{
+      width:min(100%,520px); background:#fff; border:1px solid #e7ebf2; border-radius:24px;
+      padding:34px; box-shadow:0 18px 50px rgba(20,35,70,.09); text-align:center;
+    }
+    .icon{
+      width:72px;height:72px;border-radius:22px;margin:0 auto 20px;
+      display:grid;place-items:center;background:#eaf6ff;font-size:34px
+    }
+    h1{font-size:28px;margin:0 0 10px}
+    p{font-size:15px;line-height:2;color:#667085;margin:0 0 26px}
+    a.btn{
+      display:block;text-decoration:none;background:#229ED9;color:#fff;
+      padding:15px 18px;border-radius:14px;font-weight:700;font-size:16px;
+      transition:.2s;
+    }
+    a.btn:hover{transform:translateY(-1px);filter:brightness(.97)}
+    .note{margin-top:18px;font-size:12px;color:#98a2b3}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon">✈️</div>
+    <h1>ثبت‌نام</h1>
+    <p>
+      برای ثبت‌نام و دریافت اطلاعات بیشتر، از طریق تلگرام با ما در ارتباط باشید.
+      پس از ورود به تلگرام، پیام خود را ارسال کنید.
+    </p>
+    <a class="btn" href="https://t.me/maryamm9598" target="_blank" rel="noopener">
+      ثبت‌نام از طریق تلگرام
+    </a>
+    <div class="note">@maryamm9598</div>
+  </main>
+</body>
+</html>
